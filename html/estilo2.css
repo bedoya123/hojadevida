@@ -1,0 +1,169 @@
+body {
+    background-image: url(/html/img2/2560_3000.jpg);
+    background-color: whitesmoke;
+    padding-top: 70px;
+}
+
+
+.header {
+    height: 100px ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0 4px 5px black;
+    
+    
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        z-index: 100;
+    
+    }
+    
+    
+    .nav-link {
+        color:white !important;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .logo {
+        font-size: 40px;
+        font-weight: bold;
+        padding: 0 40px;
+        line-height: 80px;
+    }
+    
+    .nav-menu {
+        display: flex;
+        margin-right: 40px;
+        list-style: none;
+    }
+
+    
+    .nav-menu-item {
+        font-size: 18px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+    
+    .nav-menu-link{
+        padding: 6px 10px;
+        border-radius: 2px;
+    }
+    
+    
+    .nav-menu-link:hover {
+        background-color: rgb(201, 187, 187);
+        transition: 0.4s;
+
+    }
+   
+    .nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+
+.nav-menu-link:hover {
+    background-color: rgb(201, 187, 187);
+    transition: 0.4s;
+}
+
+.loguito {
+ height: 70px;
+ width: 70px;
+ border-radius: 50%;
+}
+
+.logo-nav-link {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen-perfil {
+    display: flex;
+    height: 400px;
+    max-width: 60%;
+    margin-left: 30%;
+}
+
+
+.perfil {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.inf-perfil {
+    margin-bottom: 0px;
+}
+
+.titulo-perfil {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.inf {
+    color: rgb(160, 144, 144);
+    font-size: 25px;
+    margin: 30px 0%;
+}
+
+.redes {
+     margin-top: 35rem;
+     justify-content: right;
+     text-align: right;
+     align-items: right;
+     padding-right: 265px;
+}
+
+.habilidades {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+.titulo-habilidades {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.habilidad {
+    font-size: 30px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px black;
+    border-radius: 47px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.lista {
+    list-style: none;
+    padding: 0%;
+    justify-content: center;
+}

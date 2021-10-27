@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: white !important;
+}
+
+
+.header {
+background-color: orange;
+height: 100px ;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 9999;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-link {
+    color: white!important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+}
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+
+.nav-menu-link:hover {
+    background-color: rgb(201, 187, 187);
+    transition: 0.4s;
+}
+ 
+.imagenes img{
+    width: 100%;
+    
+}
+
+.mision2{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 30px 30px;
+    border: 5px solid orange;
+}
+
+.mision2 .texto{
+    text-align: justify;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+}
+
+.mision{
+    padding: 0px 100px 15px 15px;
+    border-right: 5px solid orange;
+}
+
+.vision{
+    padding-right:100px;
+    padding-left: 100px;
+}
+
+.mision2 .subtitulo{
+    margin: 30px 0px 15px 0px;
+    text-align: center;
+}
+
+footer{
+    background-color: orange;
+}
+.redes{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
